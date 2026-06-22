@@ -1,0 +1,268 @@
+@import url(style.css);
+#admission-hero {
+  background:
+    linear-gradient(to right, #00000099, #00000099), url("../hero.png");
+  background-position: center;
+  background-attachment: fixed;
+  height: 350px;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  margin-bottom: 17px;
+  font-size: 22px;
+}
+
+.box a {
+  text-decoration: none;
+  color: #f6d27a !important;
+  font-weight: 600;
+}
+
+.box a:hover {
+  color: white !important;
+}
+
+.box i {
+  color: #f6d27a;
+  margin-right: 5px;
+}
+
+.box span {
+  color: #ffffffd9;
+  margin: 0 10px;
+}
+
+.hero-content {
+  max-width: 950px;
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: 78px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+
+.hero-content p {
+  color: #ffffffeb;
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* HISTORY SECTION*/
+
+#history {
+  background: #f7f4ef;
+}
+
+.content {
+  max-width: 1400px;
+}
+
+.h-subtitle {
+  color: #c7962f;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.content h2 {
+  color: #8b1f1a;
+  font-size: 49px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.line {
+  width: 120px;
+  height: 5px;
+  background: #f86c05;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.h-text {
+  color: #555;
+  font-size: 21px;
+  text-align: justify;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+
+/* CARD */
+
+.h-card {
+  background: #fff;
+  border: 1px solid #e5d7c5;
+  border-radius: 20px;
+  padding: 35px 25px;
+  text-align: center;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.h-card:hover {
+  transform: translateY(-8px);
+}
+
+.h-icon {
+  margin-bottom: 20px;
+}
+
+.h-icon i {
+  font-size: 34px;
+  color: #8b1f1a;
+}
+
+.h-card h3 {
+  color: #8b1f1a;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.h-card p {
+  color: #000000;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .content h2 {
+    font-size: 42px;
+  }
+
+  .history-text {
+    font-size: 18px;
+  }
+
+  .h-card h3 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content h2 {
+    font-size: 34px;
+  }
+
+  .history-subtitle {
+    font-size: 14px;
+  }
+
+  .history-text {
+    font-size: 17px;
+  }
+}
+/* LEGACY SECTION */
+
+#legacy {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background-color: white;
+}
+
+.l-box {
+  padding-top: 40px;
+  text-align: justify;
+}
+
+.l-box h2 {
+  color: #8b1f1a;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.l-box p {
+  max-width: 1000px;
+  margin: auto;
+  color: black;
+  font-size: 26px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.l-btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn2 {
+  background: #8b1f1a;
+  color: white;
+  text-decoration: none;
+  padding: 18px 35px;
+  border-radius: 14px;
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: 0.25s;
+}
+
+.btn1 {
+  border: 2px solid #991919e2;
+  color: #8b1f1a;
+  text-decoration: none;
+  padding: 18px 35px;
+  border-radius: 14px;
+  font-size: 22px;
+  font-weight: 700;
+  transition: 0.25s;
+}
+
+.btn2:hover {
+  color: #8b1f1a;
+  background-color: white;
+  border: 2px solid #991919e2;
+}
+
+.btn1:hover {
+  background-color: #8b1f1a;
+  color: white;
+}
+
+/* MOBILE */
+
+@media (max-width: 992px) {
+  .legacy-box h2 {
+    font-size: 42px;
+  }
+
+  .legacy-box p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .legacy-box {
+    padding: 50px 25px;
+  }
+
+  .legacy-box h2 {
+    font-size: 34px;
+  }
+
+  .legacy-box p {
+    font-size: 18px;
+  }
+
+  .legacy-btn,
+  .legacy-btn-outline {
+    width: 100%;
+    justify-content: center;
+  }
+}
